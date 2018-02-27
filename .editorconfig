@@ -1,0 +1,26 @@
+#ref: http://editorconfig.org
+
+#make root config
+root = true
+
+#default configurations
+[*]
+
+#favor space over tabs
+indent_style = space
+
+#default indent size
+indent_size = 2
+
+#unix style end of line
+end_of_line = lf
+insert_final_newline = true
+
+#default charset
+charset = utf-8
+
+#trim trailing whitespaces
+trim_trailing_whitespace = true
+
+#[.js] javascript file specific configuration
+[.js]
